@@ -1,4 +1,3 @@
-/* Style général */
 * {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -10,60 +9,20 @@
     background-color: #8EA7E9;
   }
 
-  
-  
   .container {
     max-width: 500px;
     margin: 0 auto;
     padding: 50px;
     background-color: #FFF2F2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .profile-img {
-    display: block;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
-  }
-  
-  .adresse-mail {
-    font-size: 20px;
-    color: #5c7fdf;
-  }
-
-  .adresse-mail:hover {
-    color: #5267b8;
-  }
-
-  .profile-info {
     text-align: center;
-  }
-  
-  .profile-info h1 {
-    font-size: 38px;
-    margin-bottom: 10px;
-    padding: 25px;
-    color: #7286D3;
-  }
-  
-  .profile-info p {
-    font-size: 1.2rem;
-    color: #8EA7E9;
-    margin-bottom: 5px;
-  }
-  
-  .profile-info p:last-child {
-    margin-bottom: 0;
   }
 
   ul.profile-links {
     list-style: none;
     margin: 10px;
     padding: 10px;
+    text-align: center;
   }
   
   ul.profile-links li {
@@ -83,6 +42,15 @@
   
   ul.profile-links li a:hover {
     background-color: #5267b8;
+  }
+
+  .adresse-mail {
+    font-size: 20px;
+    color: #5c7fdf;
+  }
+
+  .adresse-mail:hover {
+    color: #5267b8;
   }
   
   
@@ -106,8 +74,43 @@
       font-size: 1rem;
     }
   }
-  
-p {
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7286D3;
     padding: 10px;
-    color: #E5E0FF;
+    max-width: 500px;
+
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #5267b8;
+  }
+
+  p {
+    font-size: 20px;
+    padding: 20px;
+    color: #8196f1;
+}
+
+.lien {
+    padding-top: 50px;
 }
