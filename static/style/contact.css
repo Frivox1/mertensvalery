@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -16,6 +16,7 @@
     background-color: #FFF2F2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border-radius: 25px;
   }
 
   ul.profile-links {
@@ -23,6 +24,7 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
+    font-size: 25px;
   }
   
   ul.profile-links li {
@@ -45,7 +47,7 @@
   }
 
   .adresse-mail {
-    font-size: 20px;
+    font-size: 30px;
     color: #5c7fdf;
   }
 
@@ -80,9 +82,9 @@
     justify-content: space-around;
     align-items: center;
     background-color: #7286D3;
-    padding: 10px;
+    padding: 5px;
     max-width: 500px;
-
+    border-radius: 10px;
   }
   
   .menu ul {
@@ -90,6 +92,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .menu li {
+    border-right: 1px solid #fff;
+  }
+  
+  .menu li:last-child {
+    border-right: none;
   }
   
   .menu a {
@@ -106,11 +116,12 @@
   }
 
   p {
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
-    color: #8196f1;
+    color: #799dff;
 }
 
 .lien {
     padding-top: 50px;
 }
+
